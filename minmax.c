@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int Bhai[10],i;
-    printf("10 baacho k marks pls\n");
+    int A[10],i;
+    printf("Enter marks of 10 studA\n");
     for(i=0;i<10;i++){
         printf("Marks of student %d: ",i);
-        scanf("%d",&Bhai[i]);
+        scanf("%d",&A[i]);
     }
-    int max=Bhai[0];
-    int min=Bhai[0];
+    int max=A[0];
+    int min=A[0];
     for(i=0;i<10;i++){  
-        if(Bhai[i]>max)
-        max = Bhai[i];
-        if(Bhai[i]<min)
-        min = Bhai[i];
+        if(A[i]>max)
+        max = A[i];
+        if(A[i]<min)
+        min = A[i];
    }
     printf("max: %d",max);
     printf("\nminn: %d",min);
